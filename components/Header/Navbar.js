@@ -52,8 +52,9 @@ const Nav = styled.header`
   top: ${({ visable }) => (visable === false ? "-100px" : 0)};
   z-index: 19;
 
-  max-width: 1860px;
-  width: calc(100% - 60px);
+  max-width: 1800px;
+  width: 100%;
+  padding: 0 50px;
   height: ${({ visable }) => (visable === 1 ? "100px" : "80px")};
 
   display: flex;
