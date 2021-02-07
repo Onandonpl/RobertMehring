@@ -74,9 +74,7 @@ const NavList = styled.ul`
   list-style: outside none none;
 
   @media (max-width: 599px) {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 `;
