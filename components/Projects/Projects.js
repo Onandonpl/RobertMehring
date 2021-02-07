@@ -25,10 +25,10 @@ const ProjectsContainer = styled.section`
   height: 100%;
   max-width: 1000px;
   width: 100%;
+  margin-bottom: 50px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
 `;
