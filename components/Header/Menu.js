@@ -56,6 +56,7 @@ const Container = styled.nav`
     visibility: ${({ open }) => (open === true ? "visible" : "hidden")};
 
     height: 100vh;
+    max-width: 100vw;
     width: 100%;
 
     background-color: #d3ad6d;
