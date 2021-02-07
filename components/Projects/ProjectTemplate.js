@@ -15,7 +15,7 @@ const ProjectTemplate = ({ data }) => {
           </ProjectDescription>
           <ProjectTech>
             {technologies.map((tech) => (
-              <p>{tech}</p>
+              <p key={Math.random()}>{tech}</p>
             ))}
           </ProjectTech>
           <ProjectLinks>
